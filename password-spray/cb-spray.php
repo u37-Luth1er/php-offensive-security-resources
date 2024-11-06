@@ -44,10 +44,10 @@ if($_token){
 
 	if(strpos($data, '"Erro":false') !== false){
 		echo "</br>";
-		echo "Aprovada!";
+		echo "Success!";
 	}elseif(strpos($data, '"Erro":true') !== false){
 		echo "</br>";
-		echo "Reprovada!";
+		echo "Error!";
 	}
 
 }
