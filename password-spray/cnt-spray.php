@@ -8,7 +8,7 @@ if(!empty($_GET["login"])){
 // Post request using CURL
 	error_reporting(0);
 
-	$login = "samueldiascabrera@yahoo.com.br|samudc";
+	$login = "{REDEACTED}";
 	//$email = explode("|", $login)[0];
 	//$senha = explode("|", $login)[1];
 	$ch = curl_init();
